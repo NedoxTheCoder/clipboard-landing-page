@@ -13,6 +13,8 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    margin: 0rem 4rem;
+    text-align: center;
 }
 
 .logo{
@@ -238,7 +240,7 @@ footer a{
 .social p{
     text-align: center;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 750px){
     .benef{
         flex-direction: column;
     }
@@ -255,5 +257,18 @@ footer a{
     }
     .options{
         flex-direction: column;
+    }
+    .mainfooter{
+        flex-direction: column;
+    }
+    .tools{
+        flex-direction: column;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .buttons button{
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
     }
 }
