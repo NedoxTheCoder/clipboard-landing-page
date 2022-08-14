@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Open+Sans&family=Poppins:wght@300&family=Raleway&family=Roboto+Mono&family=Roboto:wght@300&family=Rubik&family=Sansita+Swashed&family=Titan+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.flexed{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo{
+    background-image: url(./clipboard-landing-page-master/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+
+.flexed p{
+    margin: 1% auto;
+    font-size: 1.05rem;
+    text-align: center;
+}
+
+.buttons button{
+    padding: 0.8rem 1.6rem;
+    border-radius: 2vw;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.b1{
+    background-color: hsl(171, 66%, 44%);
+    color: #fff;
+}
+.b2{
+    background-color: hsl(233, 100%, 69%);
+    color: #fff;
+}
+.buttons button:hover{
+    background-color: #f00;
+}
+
+.flexed2{
+  text-align: center;
+  margin: 4rem 4rem;
+}
+
+.flexed2 h1{
+    margin-bottom: 1rem;
+}
+
+.benef img{
+    margin-left: -2.5rem;
+    width: 50%;
+}
+
+.benef{
+    display: flex;
+    align-items: center;
+}
+
+.passages{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0rem 5rem 5rem;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+}
+.section2 img{
+    width: 50%;
+}
+
+.ph h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.ph{
+    margin: 2rem 3rem;
+    text-align: center;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 5rem 3rem;
+}
+.options{
+    display: flex;
+    gap: 4rem;
+}
+
+.o{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.5rem;
+}
+.o:hover{
+    box-shadow: 0px 0px 20px rgb(162, 157, 157);
+}
+
+.tools{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    flex-wrap: wrap;
+    /* margin: 0rem 2rem; */
+}
+
+.tools img{
+    /* 100% */
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem auto;
+    gap: 2.5rem;
+}
+
+.h1andp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap : 1rem;
+    text-align: center;
+    margin: 0rem 4rem;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+    background-color: #E3E6E8;
+    padding: 2rem 0rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.ps{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.line{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.logo2 img{
+    width: 50px;
+    height: auto;
+    /* margin-left: 2rem; */
+}
+
+/* .mainfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+    margin: 2rem auto;
+    background-color: #E3E6E8;
+
+} */
+.mainfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+    /* background-color: #E3E6E8; */
+    padding: 2rem 0rem;
+    margin: 0rem 4rem;
+}
+.sociallogo{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.sociallogo  a{
+    color: #f00;
+    text-decoration: none;
+}
+
+h1, h2 , h3, h4 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+p{
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+}
+
+footer a{
+    color: hsl(210, 10%, 33%);
+}
+.social p{
+    text-align: center;
+}
+@media screen and (max-width: 800px){
+    .benef{
+        flex-direction: column;
+    }
+    .section2{
+        margin: 1rem auto;
+    }
+    .benef img{
+        margin-left: 0rem;
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    .passages h4, p{
+        text-align: center;
+    }
+    .options{
+        flex-direction: column;
+    }
+}
