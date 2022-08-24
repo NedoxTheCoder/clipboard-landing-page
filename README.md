@@ -13,6 +13,8 @@
 ![clipboard-gif](https://user-images.githubusercontent.com/108099926/186409399-0eeccff6-8ec3-4e0a-929e-7454aa98fc34.gif)
 
 
+## Live Website
+[Click Here](https://nedoxthecoder.github.io/clipboard-landing-page/)
 
 ## Documentation
 
