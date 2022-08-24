@@ -20,10 +20,10 @@
 
 
 # Used Language / Tools
-![html5](https://user-images.githubusercontent.com/108099926/186410232-46e16263-345b-4f1e-8b79-9cf1d98e0d07.svg) # HTML5
+![html5](https://user-images.githubusercontent.com/108099926/186410232-46e16263-345b-4f1e-8b79-9cf1d98e0d07.svg)
 
 
-![css3](https://user-images.githubusercontent.com/108099926/186410244-d3a5914a-b2da-43e2-84b6-751b03b518f6.svg) # CSS3
+![css3](https://user-images.githubusercontent.com/108099926/186410244-d3a5914a-b2da-43e2-84b6-751b03b518f6.svg)
 
 
 
