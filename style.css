@@ -98,7 +98,9 @@
 .section2 img{
     width: 50%;
 }
-
+.hp{
+    text-align: center;
+}
 .ph h1{
     text-align: center;
     margin-bottom: 1rem;
