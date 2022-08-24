@@ -20,9 +20,11 @@
 
 
 # Used Language / Tools
-![HTML5](https://user-images.githubusercontent.com/108099926/186409708-78236a8e-e72b-48d5-9b2e-b9a07946f25c.svg)
+![html5](https://user-images.githubusercontent.com/108099926/186410232-46e16263-345b-4f1e-8b79-9cf1d98e0d07.svg) # HTML5
 
-![CSS3](https://user-images.githubusercontent.com/108099926/186409798-6f6e5ca7-87d4-4512-b0dc-83ba8e852245.svg)
+
+![css3](https://user-images.githubusercontent.com/108099926/186410244-d3a5914a-b2da-43e2-84b6-751b03b518f6.svg) # CSS3
+
 
 
 ## Sources I have used
